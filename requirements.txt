@@ -1,15 +1,7 @@
-ffmpeg-python
-discord.py
-yt-dlp
-PyNaCl
-python-dotenv
-requests
-transformers>=4.40.0
-peft>=0.11.0
-bitsandbytes
-TA-Lib
-pandas
-yfinance
 fastapi
 uvicorn
+yfinance
+pandas
+numpy
+requests
 
