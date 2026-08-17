@@ -1,6 +1,10 @@
+
+import onepush_breakout
+
 from fastapi import FastAPI, BackgroundTasks
 import os
 import uvicorn
+
 
 app = FastAPI()
 
@@ -19,9 +23,8 @@ else:
 
 def run_my_code():
     print("\n🚀 [背景任務] 股票掃描開始執行...")
-    
-    # 💡 這裡未來放你「原本完整的 193 檔 yfinance 下載與篩選邏輯」
-    # （提醒：在雲端執行，yf.download 裡面的 threads 記得設為 False 喔！）
+
+    onepush_breakout.run_scanner()
     
     print("🎉 [背景任務] 股票掃描與 Discord 發送完畢。")
 
