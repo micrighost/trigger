@@ -8,7 +8,7 @@
 
 ```text
 我的股票雷達專案/
-├── 觸發器.py                          # 總機：負責網頁端點路由、應付 Render 健康檢查與背景任務分配
+├── trigger.py                          # 總機：負責網頁端點路由、背景任務分配
 ├── onepush_breakout.py                 # 大腦1：波動慣性爆發策略 (ATR2.0 + 爆量長紅)
 ├── onepush_abnormal_volume.py          # 大腦2：當日交易量大於昨天兩倍策略 (量能不平衡)
 ├── onepush_Volume_Price_Velocity_10d.py # 大腦3：10天短天期量價速度動能策略
