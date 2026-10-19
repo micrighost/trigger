@@ -29,7 +29,7 @@
 
 ### 2. 進階環境變數 (Environment Variables)
 * `DISCORD_WEBHOOK_URL`: 填入您的 Discord Webhook 接收通道長網址。
-* `TICKERS`: 填入 193 檔完整的股票代碼字串（以英文逗號隔開，例如：`2330.TW,2317.TW,2454.TW`）。
+* `TICKERS`: 填入 305 檔完整的股票代碼字串（以英文逗號隔開，例如：`2330.TW,2317.TW,2454.TW`）。
 
 ---
 
